@@ -1,0 +1,8 @@
+applications:
+-  name: cf-cloudfoundry-try3
+   memory: 1G
+   path: target/Student2-0.0.1-SNAPSHOT
+   random-route: false
+   buildpack: https://github.com/cloudfoundry/java-buildpack.git
+   services:
+   - CF_demo   
